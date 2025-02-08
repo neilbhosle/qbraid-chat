@@ -1,0 +1,9 @@
+out
+dist
+node_modules
+.vscode-test/
+*.vsix
+.venv
+package.json
+package-lock.json
+changelog.node_modules
