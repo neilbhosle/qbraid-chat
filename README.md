@@ -25,16 +25,9 @@ A VS Code extension that integrates with qBraid's quantum computing platform, pr
 
 To contribute or modify:
 ```bash
-git clone https://github.com/your-repo/qbraid-chat.git
+git clone https://github.com/neilbhosle/qbraid-chat.git
 cd qbraid-chat
 npm install
-
-## 📩 Submission
-
-To submit your extension to qBraid, zip the project and upload it:
-```bash
-zip -r qbraid-chat.zip qbraid-chat -x "*/node_modules/*" "*/dist/*" "*/out/*" "*/.git/*" "*.vsix"
-qbraid files upload qbraid-chat.zip --namespace fullstack-challenge
 
 ## 📜 License
 
@@ -42,6 +35,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 🤝 Support
 
-For issues related to API access or submission:
+For issues related to API access:
 - 📧 Email: **contact@qbraid.com**  
 - 📖 [qBraid API Docs](https://docs.qbraid.com/api-reference/user-guide/introduction)
